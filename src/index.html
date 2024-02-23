@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main w-full h-screen font-poppins bg-[#edede9]">
+      <div class="container mx-auto h-screen relative">
+        <div class="navbar flex items-center justify-between w-full px-7 py-10">
+          <h2 class="text-xl font-semibold">Strawhat Studio</h2>
+          <div class="links hidden lg:flex gap-10">
+            <a class="opacity-80 text-xl" href="">Work</a>
+            <a class="opacity-50 text-xl" href="">Services</a>
+            <a class="opacity-50 text-xl" href="">Pricing</a>
+            <a class="opacity-50 text-xl" href="">Contact Us</a>
+          </div>
+          <i class="fa-solid fa-bars lg:hidden"></i>
+        </div>
+        <div
+          class="profile w-full flex items-center top-1/2 left-1/2 flex-col absolute mt-16 -translate-x-[50%] -translate-y-[50%]"
+        >
+          <div class="image w-24 h-24 lg:w-36 lg:h-36">
+            <img src="../assets/2151100226.jpg" alt="" class="rounded-full" />
+          </div>
+          <h3 class="font-semibold text-xl lg:text-3xl mt-4 tracking-tighter">
+            Hi, I'm Abinash 🖐️
+          </h3>
+          <h1
+            class="font-semibold text-4xl lg:text-6xl leading-none text-center mt-3 w-3/4 tracking-tighter"
+          >
+            Building digital products, brands, and experiences
+          </h1>
+          <p
+            class="tracking-tighter text-lg lg:text-2xl lg:opacity-55 font-semibold mt-6 w-3/4 text-center px-3"
+          >
+            Hi, I'm Abinash building digital products, brands, experience, and
+            visual development.
+          </p>
+          <button
+            class="px-4 lg:px-6 font-semibold lg:font-medium lg:text-xl mt-7 py-3 lg:py-5 rounded-full bg-[#023047] text-white"
+          >
+            Connect With Me!
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
